@@ -417,7 +417,9 @@ CREATE TABLE `his_vitals` (
   `vit_daterec` timestamp(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6) ON UPDATE CURRENT_TIMESTAMP(6)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
-
+--
+-- Dumping data for table `his_vitals`
+--
 
 INSERT INTO `his_vitals` (`vit_id`, `vit_number`, `vit_pat_number`, `vit_bodytemp`, `vit_heartpulse`, `vit_resprate`, `vit_bloodpress`, `vit_daterec`) VALUES
 (3, '1KB9V', '3Z14K', '38', '77', '12', '90/60', '2022-10-18 17:10:16.904915'),
@@ -429,47 +431,73 @@ INSERT INTO `his_vitals` (`vit_id`, `vit_number`, `vit_pat_number`, `vit_bodytem
 
 
 
+--
+-- Indexes for dumped tables
+--
 
+--
+-- Indexes for table `his_accounts`
+--
 ALTER TABLE `his_accounts`
   ADD PRIMARY KEY (`acc_id`);
 
-
+--
+-- Indexes for table `his_admin`
+--
 ALTER TABLE `his_admin`
   ADD PRIMARY KEY (`ad_id`);
 
-
+--
+-- Indexes for table `his_assets`
+--
 ALTER TABLE `his_assets`
   ADD PRIMARY KEY (`asst_id`);
 
-
+--
+-- Indexes for table `his_docs`
+--
 ALTER TABLE `his_docs`
   ADD PRIMARY KEY (`doc_id`);
 
-
+--
+-- Indexes for table `his_equipments`
+--
 ALTER TABLE `his_equipments`
   ADD PRIMARY KEY (`eqp_id`);
 
-
+--
+-- Indexes for table `his_laboratory`
+--
 ALTER TABLE `his_laboratory`
   ADD PRIMARY KEY (`lab_id`);
 
-
+--
+-- Indexes for table `his_medical_records`
+--
 ALTER TABLE `his_medical_records`
   ADD PRIMARY KEY (`mdr_id`);
 
-
+--
+-- Indexes for table `his_patients`
+--
 ALTER TABLE `his_patients`
   ADD PRIMARY KEY (`pat_id`);
 
-
+--
+-- Indexes for table `his_patient_transfers`
+--
 ALTER TABLE `his_patient_transfers`
   ADD PRIMARY KEY (`t_id`);
 
-
+--
+-- Indexes for table `his_payrolls`
+--
 ALTER TABLE `his_payrolls`
   ADD PRIMARY KEY (`pay_id`);
 
-
+--
+-- Indexes for table `his_pharmaceuticals`
+--
 ALTER TABLE `his_pharmaceuticals`
   ADD PRIMARY KEY (`phar_id`);
 
