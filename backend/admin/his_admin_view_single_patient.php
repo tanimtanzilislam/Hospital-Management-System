@@ -13,22 +13,19 @@
 
     <body>
 
-        <!-- Begin page -->
+        
         <div id="wrapper">
 
-            <!-- Topbar Start -->
+            
              <?php include("assets/inc/nav.php");?>
-            <!-- end Topbar -->
+            
 
-            <!-- ========== Left Sidebar Start ========== -->
+            
                 <?php include("assets/inc/sidebar.php");?>
-            <!-- Left Sidebar End -->
+            
 
-            <!-- ============================================================== -->
-            <!-- Start Page Content here -->
-            <!-- ============================================================== -->
-
-            <!--Get Details Of A Single User And Display Them Here-->
+         
+            
             <?php
                 $pat_number=$_GET['pat_number'];
                 $pat_id=$_GET['pat_id'];
@@ -143,7 +140,7 @@
                                             </ul>
                                            
                                         </div> <!-- end tab-pane -->
-                                        <!-- end Prescription section content -->
+                                    
 
                                         <div class="tab-pane show " id="timeline">
                                             <div class="table-responsive">
@@ -228,7 +225,7 @@
                                             </ul>
                                         </div>
                                         </div>
-                                        <!-- end lab records content-->
+                                      
 
                                     </div> <!-- end tab-content -->
                                 </div> <!-- end card-box-->
@@ -248,18 +245,14 @@
             </div>
             
 
-            <!-- ============================================================== -->
-            <!-- End Page content -->
-            <!-- ============================================================== -->
-
 
         </div>
-        <!-- END wrapper -->
+       
 
-        <!-- Right bar overlay-->
+        
         <div class="rightbar-overlay"></div>
 
-        <!-- Vendor js -->
+    
         <script src="assets/js/vendor.min.js"></script>
 
         <!-- App js -->
