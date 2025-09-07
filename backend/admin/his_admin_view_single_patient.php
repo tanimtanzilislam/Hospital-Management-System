@@ -225,7 +225,7 @@
                                             </ul>
                                         </div>
                                         </div>
-                                        <!-- end lab records content-->
+                                      
 
                                     </div> <!-- end tab-content -->
                                 </div> <!-- end card-box-->
@@ -245,18 +245,14 @@
             </div>
             
 
-            <!-- ============================================================== -->
-            <!-- End Page content -->
-            <!-- ============================================================== -->
-
 
         </div>
-        <!-- END wrapper -->
+       
 
-        <!-- Right bar overlay-->
+        
         <div class="rightbar-overlay"></div>
 
-        <!-- Vendor js -->
+    
         <script src="assets/js/vendor.min.js"></script>
 
         <!-- App js -->
